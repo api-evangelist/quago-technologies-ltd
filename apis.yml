@@ -1,8 +1,25 @@
 aid: quago-technologies-ltd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quago-technologies-ltd.png
 name: Quago Technologies LTD
-description: Quago Technologies LTD is a company surfaced as a portfolio company of a16z and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Quago Technologies is a gaming analytics and fraud-detection company that uses machine learning
+  and mobile device sensor data to protect and optimize mobile games. Its platform analyzes in-game
+  behavioral and device-sensor patterns - without collecting personally identifiable information - to
+  detect and manage cheating, identify user-acquisition (CPA) fraud, predict player churn, and optimize
+  monetization and lifetime value. Quago is delivered to mobile game studios as an embedded SDK plus a
+  backend analytics service rather than a public developer API; it was surfaced as an a16z portfolio
+  company and added to the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/quago-technologies-ltd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +29,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Gaming
+- Analytics
+- Fraud Detection
+- Anti-Cheat
+- Machine Learning
+- Mobile
+- User Acquisition
+- SDK
 apis: []
+common:
+- type: DomainSecurity
+  url: security/quago-technologies-ltd-domain-security.yml
+- type: Website
+  url: https://quago.io
+- type: Blog
+  url: https://quago.io/blog-quago-in-game-analytics/
+- type: PrivacyPolicy
+  url: https://quago.io/quago-privacy-policy/
+- type: TermsOfService
+  url: https://quago.io/quago-privacy-policy/
+- type: Support
+  url: https://quago.io/quago-contact-us/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
