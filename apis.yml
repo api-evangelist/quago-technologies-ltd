@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quago-technologies-ltd.png
-name: Quago Technologies LTD
+name: Quago Technologies
 description: >-
   Quago Technologies is a gaming analytics and fraud-detection company that uses machine learning
   and mobile device sensor data to protect and optimize mobile games. Its platform analyzes in-game
@@ -45,9 +45,9 @@ tags:
 - Company
 - Gaming
 - Analytics
-- Fraud Detection
+- Fraud Prevention
 - Anti-Cheat
-- Machine-Learning
+- Machine Learning
 - Mobile
 - User Acquisition
 - SDK
@@ -61,6 +61,7 @@ tags_raw:
 - Mobile
 - User Acquisition
 - SDK
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
@@ -85,3 +86,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: Quago Technologies LTD
